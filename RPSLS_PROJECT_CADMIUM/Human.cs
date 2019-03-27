@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace RPSLS_PROJECT_CADMIUM
 {
-    class Computer : Player
+    class Human
     {
         //member variable (Has A)
 
 
         //constructor
-        public Computer()
+        public Human()
         {
-            
+
         }
 
 
