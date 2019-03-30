@@ -19,5 +19,10 @@ namespace RPSLS_PROJECT_CADMIUM
 
 
         //member methods (Can Do)
+        public override PickGesture()
+        {
+
+        }
+
     }
 }

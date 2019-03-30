@@ -9,9 +9,13 @@ namespace RPSLS_PROJECT_CADMIUM
     class Choice
     {
         //member variable (Has A)
+        string[] Gestures = { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
+
+
 
 
         //constructor (Build This)
+        
 
 
         //member methods (Can Do)

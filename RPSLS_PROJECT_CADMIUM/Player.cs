@@ -10,8 +10,8 @@ namespace RPSLS_PROJECT_CADMIUM
     {
         //member variable (Has A)
         public string name;
-        public string choice;
-        List<Choice> Choices = new List<Choice>() { Rock, Paper, Scissors, Lizard, Spock };
+        public string gesture;
+        public string score;
       
 
 
@@ -23,7 +23,7 @@ namespace RPSLS_PROJECT_CADMIUM
         }
 
         //member methods (Can Do)
-        public void PickGesture()
+        public virtual PickGesture()
         {
 
 

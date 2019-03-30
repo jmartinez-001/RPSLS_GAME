@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS_PROJECT_CADMIUM
 {
-    class Human
+    class Human : Player
     {
         //member variable (Has A)
 
@@ -19,5 +19,13 @@ namespace RPSLS_PROJECT_CADMIUM
 
 
         //member methods (Can Do)
+        public override void PickGesture()
+        {
+            Console.WriteLine("Choose Gesture");
+            gesture = Console.ReadLine();
+
+        }
+
+
     }
 }
